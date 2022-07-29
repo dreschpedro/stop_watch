@@ -5,6 +5,8 @@ Cronometro con minutos y segundos
 
 **App desarrollada en este tutorial:** https://youtu.be/kqMUFJp7K24
 
+**Repositorios orígen del código:** https://github.com/accesibleprogramacion/cronometro/blob/main/styles.css
+
 Tecnologías:
 - HTML
 - CSS
