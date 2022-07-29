@@ -5,7 +5,7 @@ body {
 :root {
     --blanco: #fff;
     --negro: #1d1d1d;
-    --gris: rgba(134, 104, 104, 0.432);
+    --gris: #857e7e6e;
 }
 
 main {
@@ -13,17 +13,13 @@ main {
     position: relative;
 }
 
-.stopwatch{
-    background-color: var(--gris);
-    padding: 5%;
-    border-radius: 7%;
-}
+
 
 .circle {
     border-radius: 50%;
-    width: 120px;
-    height: 120px;
-    border: 1px solid var(--blanco);
+    width: 220px;
+    height: 220px;
+    border: 2px solid green;
     color: var(--blanco);
     margin: 50px auto;
     display: flex;
@@ -37,10 +33,11 @@ main {
     border-radius: 50%;
     z-index: -1;
     position: absolute;
-    width: 160px;
-    height: 160px;
-    left: calc(50% - 80px);
-    top: calc(50% - 80px);
+    width: 260px;
+    height: 260px;
+    left: calc(50% - 130px);
+    top: calc(50% - 130px);
+    justify-content: center;
     background-color: var(--negro);
 }
 
@@ -48,7 +45,7 @@ main {
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background-color: var(--blanco);
+    background-color: red;
     position: absolute;
     left: calc(50% - 10px);
     top: calc(50% - 10px);
@@ -58,25 +55,33 @@ main {
 
 @keyframes rotacion {
     from {
-        transform: rotate(-90deg) translateX(60px);
+        transform: rotate(-90deg) translateX(110px);
     }
 
     to {
-        transform: rotate(270deg) translateX(60px);
+        transform: rotate(270deg) translateX(110px);
     }
 }
 
+.stopwatch{
+    font-size: 30px;
+    font-style: bold;
+    background-color: var(--gris);
+    padding: 5%;
+    border-radius: 7%;
+}
+
 .buttons {
-    margin-top: 10px;
+    margin-top: 30px;
     display: inline-flex;
 }
 
 .paused {
-    height: 10px;
-    border-width: 5px 0 5px 10px;
+    height: 20px;
+    border-width: 10px 0 10px 20px;
     cursor: pointer;
     box-sizing: border-box;
-    margin-left: 15px;
+    margin-left: 35px;
     border-color: transparent transparent transparent var(--blanco);
     transition: 100ms all ease;
     border-style: solid;
@@ -84,12 +89,12 @@ main {
 
 .running {
     border-style: double;
-    border-width: 0 0 0 10px;
+    border-width: 0 0 0 20px;
 }
 
 .stop{
     background-color: var(--blanco);
-    height: 10px;
-    width: 10px;
+    height: 20px;
+    width: 20px;
     cursor: pointer;
 }
