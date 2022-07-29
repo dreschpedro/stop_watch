@@ -1,11 +1,10 @@
 # Cronómetro
 Cronometro con minutos y segundos
 
-<img src="https://i.ibb.co/MSnHGqt/Screen-Shot-2021-04-27-at-08-21-06.png" alt="crono" width="400"/>
+<img src="stopwatch.png" alt="Cronómetro" width="400"/>
 
-**App desarrollada en este tutorial:** https://youtu.be/kqMUFJp7K24
-
-**Repositorios orígen del código:** https://github.com/accesibleprogramacion/cronometro
+**Cronómetro desarrollado en este tutorial:** https://youtu.be/kqMUFJp7K24
+**Repositorio orígen del Cronómetro:** https://github.com/accesibleprogramacion/cronometro
 
 Tecnologías:
 - HTML
